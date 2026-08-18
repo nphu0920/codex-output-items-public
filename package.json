@@ -1,0 +1,19 @@
+{
+  "name": "codex-output-items",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Local-first output index for Codex Desktop on Windows.",
+  "scripts": {
+    "check": "node build/verify-source.mjs && node --check extension/server.mjs && node --check extension/scripts/codex-output-scanner.mjs && node --check extension/scripts/github-publisher.mjs && node --check extension/companion/codex-companion.mjs",
+    "test:web": "npm --prefix web test",
+    "test:tooling": "node --test tests/release-tooling.test.mjs",
+    "build:web": "npm --prefix web run build",
+    "build:release": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File build/build-release.ps1",
+    "verify:release": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File build/verify-release.ps1"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

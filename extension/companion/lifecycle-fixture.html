@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark" data-color-theme="dark" data-resolved-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <title>产出项伴生生命周期 fixture</title>
+    <style>
+      :root { color-scheme: dark; --fixture-bg: #171717; --fixture-fg: #ddd; --fixture-control: #292929; --fixture-border: #444; }
+      :root[data-theme="light"], :root[data-theme="system"][data-resolved-theme="light"] { color-scheme: light; --fixture-bg: #f7f7f8; --fixture-fg: #242326; --fixture-control: #fff; --fixture-border: #d7d4d8; }
+      body { margin: 0; font: 14px system-ui; color: var(--fixture-fg); background: var(--fixture-bg); }
+      header, aside, main, .fixture-controls { box-sizing: border-box; }
+      header { height: 44px; display: flex; align-items: center; gap: 12px; padding: 0 12px; border-bottom: 1px solid var(--fixture-border); }
+      #window-controls { margin-left: auto; }
+      aside { position: fixed; inset: 44px auto 0 0; width: 220px; padding: 12px; border-right: 1px solid var(--fixture-border); }
+      nav { display: grid; gap: 8px; }
+      button { color: inherit; background: var(--fixture-control); border: 1px solid var(--fixture-border); border-radius: 6px; padding: 7px 10px; }
+      main { position: fixed; inset: 44px 0 0 220px; }
+      .surface { position: absolute; inset: 0; }
+      [data-app-shell-main-content-layout] { height: 100%; padding: 24px; }
+      .fixture-controls { position: fixed; z-index: 50; right: 16px; bottom: 16px; display: flex; gap: 8px; }
+    </style>
+  </head>
+  <body>
+    <header data-app-shell-application-menu-bar>
+      <div id="context-root"><div data-testid="app-shell-header-context-menu-surface">任务标题</div></div>
+      <div id="home-root"><span class="home-mode-toggle">主页图标</span></div>
+      <div id="legacy-slot" data-test-id="header-shell-slot">旧属性插槽</div>
+      <div id="browser-slot" data-testid="header-shell-slot">浏览器图标</div>
+      <div id="window-controls"><button aria-label="窗口控制">窗口控制</button></div>
+    </header>
+
+    <aside>
+      <nav role="navigation" data-app-action-sidebar-scroll>
+        <button aria-current="page"><span>新对话</span></button>
+        <button id="plugin-entry"><svg viewBox="0 0 24 24"></svg><span class="text-fade-truncate">插件</span></button>
+        <button id="native-task"><span>原生任务</span></button>
+      </nav>
+      <button id="settings-entry" role="menuitem">设置</button>
+    </aside>
+
+    <main>
+      <div class="surface" id="task-surface">
+        <div data-app-shell-main-content-layout>
+          <div class="app-shell-main-content-frame">原生任务内容</div>
+        </div>
+      </div>
+    </main>
+
+    <div class="fixture-controls">
+      <button id="theme-dark">深色主题</button>
+      <button id="theme-light">浅色主题</button>
+      <button id="theme-system">系统主题</button>
+      <button id="arm-replacement">准备自动替换 surface</button>
+    </div>
+
+    <script>
+      window.__CODEX_OUTPUT_ITEMS_UI_URL__ = "http://127.0.0.1:41234/?embedded=1";
+      const setFixtureTheme = (mode) => {
+        const root = document.documentElement;
+        const resolved = mode === "system"
+          ? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+          : mode;
+        root.dataset.theme = mode;
+        root.dataset.colorTheme = mode;
+        root.dataset.resolvedTheme = resolved;
+        root.style.colorScheme = resolved;
+      };
+      document.getElementById("theme-dark").addEventListener("click", () => setFixtureTheme("dark"));
+      document.getElementById("theme-light").addEventListener("click", () => setFixtureTheme("light"));
+      document.getElementById("theme-system").addEventListener("click", () => setFixtureTheme("system"));
+      const replacementMarkup = (label) => `
+        <div class="surface" id="replacement-surface">
+          <div data-app-shell-main-content-layout>
+            <div class="app-shell-main-content-frame">${label}</div>
+          </div>
+        </div>`;
+      document.getElementById("settings-entry").addEventListener("click", () => {
+        document.querySelector("main").innerHTML = replacementMarkup("设置内容已显示");
+      });
+      document.getElementById("arm-replacement").addEventListener("click", () => {
+        window.setTimeout(() => {
+          document.querySelector("main").innerHTML = replacementMarkup("程序化导航后的原生内容");
+        }, 700);
+      });
+    </script>
+    <script src="./inject-output-items.user.js"></script>
+  </body>
+</html>

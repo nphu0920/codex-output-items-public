@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (() => {
+        const root = document.documentElement;
+        const normalize = (value) => value === "light" || value === "dark" ? value : null;
+        let theme = normalize(root.dataset.theme);
+        let hasOpenAI = false;
+        try {
+          hasOpenAI = Boolean(window.openai);
+          theme = normalize(window.openai?.theme) || theme;
+        } catch (_) {}
+        if (!theme && window.parent === window && !hasOpenAI && !window.__CODEX_OUTPUT_ITEMS_COMPANION__) {
+          try {
+            theme = normalize(new URLSearchParams(window.location.search).get("outputItemsTheme"));
+          } catch (_) {}
+        }
+        if (!theme) {
+          try {
+            theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          } catch (_) {
+            theme = "dark";
+          }
+        }
+        root.dataset.theme = theme;
+        root.style.colorScheme = theme;
+      })();
+    </script>
+    <title>产出项</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

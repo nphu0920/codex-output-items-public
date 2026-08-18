@@ -1,0 +1,1057 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "codex-output-items-1.0.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/codex-output-items-1.0.0-8790e514c9c281235de79b59",
+  "creationInfo": {
+    "created": "1980-01-01T00:00:00Z",
+    "creators": [
+      "Tool: codex-output-items-build"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package--babel-code-frame-7.29.7-6b8a8b4556d6",
+      "name": "@babel/code-frame",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-compat-data-7.29.7-29e042b0780d",
+      "name": "@babel/compat-data",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-core-7.29.7-77feca724e91",
+      "name": "@babel/core",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-generator-7.29.7-a3f95b4803f9",
+      "name": "@babel/generator",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-compilation-targets-7.29.7-6a6607cfd0ab",
+      "name": "@babel/helper-compilation-targets",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-globals-7.29.7-b30308a0d4a4",
+      "name": "@babel/helper-globals",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-module-imports-7.29.7-b53483aeb831",
+      "name": "@babel/helper-module-imports",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-module-transforms-7.29.7-e41ab9c08705",
+      "name": "@babel/helper-module-transforms",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-plugin-utils-7.29.7-d3e710f178f2",
+      "name": "@babel/helper-plugin-utils",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-string-parser-7.29.7-8fc1a8f3c7e8",
+      "name": "@babel/helper-string-parser",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-validator-identifier-7.29.7-78632d56d2f5",
+      "name": "@babel/helper-validator-identifier",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helper-validator-option-7.29.7-64fa9ae1be98",
+      "name": "@babel/helper-validator-option",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-helpers-7.29.7-655b99c5e289",
+      "name": "@babel/helpers",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-parser-7.29.7-abdaa5046e9e",
+      "name": "@babel/parser",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/parser/-/parser-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-plugin-transform-react-jsx-self-7.29.7-1295800c92e0",
+      "name": "@babel/plugin-transform-react-jsx-self",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-plugin-transform-react-jsx-source-7.29.7-bb1fda729db2",
+      "name": "@babel/plugin-transform-react-jsx-source",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-template-7.29.7-cb97faf3fde6",
+      "name": "@babel/template",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/template/-/template-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-traverse-7.29.7-7eef6d867668",
+      "name": "@babel/traverse",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--babel-types-7.29.7-a87a4414a14c",
+      "name": "@babel/types",
+      "versionInfo": "7.29.7",
+      "downloadLocation": "https://registry.npmjs.org/@babel/types/-/types-7.29.7.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-aix-ppc64-0.25.12-907e5754e78c",
+      "name": "@esbuild/aix-ppc64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-android-arm-0.25.12-072339cba0bc",
+      "name": "@esbuild/android-arm",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-android-arm64-0.25.12-f44f96dacc4d",
+      "name": "@esbuild/android-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-android-x64-0.25.12-e4a6a822cb43",
+      "name": "@esbuild/android-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-darwin-arm64-0.25.12-bd323057d4e5",
+      "name": "@esbuild/darwin-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-darwin-x64-0.25.12-2e107bf5407c",
+      "name": "@esbuild/darwin-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-freebsd-arm64-0.25.12-d6abb7e17922",
+      "name": "@esbuild/freebsd-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-freebsd-x64-0.25.12-ca51598b4d53",
+      "name": "@esbuild/freebsd-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-arm-0.25.12-6a273b6354db",
+      "name": "@esbuild/linux-arm",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-arm64-0.25.12-41a02a5eac24",
+      "name": "@esbuild/linux-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-ia32-0.25.12-f8c335a1b495",
+      "name": "@esbuild/linux-ia32",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-loong64-0.25.12-1ccc90ce9d0e",
+      "name": "@esbuild/linux-loong64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-mips64el-0.25.12-2a3de2b48dcd",
+      "name": "@esbuild/linux-mips64el",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-ppc64-0.25.12-7eeffd7e67f1",
+      "name": "@esbuild/linux-ppc64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-riscv64-0.25.12-2f5e5f9b3650",
+      "name": "@esbuild/linux-riscv64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-s390x-0.25.12-81ca0ac987ad",
+      "name": "@esbuild/linux-s390x",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-linux-x64-0.25.12-9bd45583e30a",
+      "name": "@esbuild/linux-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-netbsd-arm64-0.25.12-802042ae63e7",
+      "name": "@esbuild/netbsd-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-netbsd-x64-0.25.12-b60d6f92e44a",
+      "name": "@esbuild/netbsd-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-openbsd-arm64-0.25.12-03d06cb469e3",
+      "name": "@esbuild/openbsd-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-openbsd-x64-0.25.12-1e5e96139162",
+      "name": "@esbuild/openbsd-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-openharmony-arm64-0.25.12-6fb7d39911cb",
+      "name": "@esbuild/openharmony-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-sunos-x64-0.25.12-4198d1e84701",
+      "name": "@esbuild/sunos-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-win32-arm64-0.25.12-5b92c0238bac",
+      "name": "@esbuild/win32-arm64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-win32-ia32-0.25.12-0126b9cb20aa",
+      "name": "@esbuild/win32-ia32",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--esbuild-win32-x64-0.25.12-b31eaa2eb534",
+      "name": "@esbuild/win32-x64",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--jridgewell-gen-mapping-0.3.13-2a5e3ef65ef8",
+      "name": "@jridgewell/gen-mapping",
+      "versionInfo": "0.3.13",
+      "downloadLocation": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--jridgewell-remapping-2.3.5-20658c2cba41",
+      "name": "@jridgewell/remapping",
+      "versionInfo": "2.3.5",
+      "downloadLocation": "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--jridgewell-resolve-uri-3.1.2-49e10d7687d7",
+      "name": "@jridgewell/resolve-uri",
+      "versionInfo": "3.1.2",
+      "downloadLocation": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--jridgewell-sourcemap-codec-1.5.5-11d785d1adb7",
+      "name": "@jridgewell/sourcemap-codec",
+      "versionInfo": "1.5.5",
+      "downloadLocation": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--jridgewell-trace-mapping-0.3.31-1e364efb45c4",
+      "name": "@jridgewell/trace-mapping",
+      "versionInfo": "0.3.31",
+      "downloadLocation": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rolldown-pluginutils-1.0.0-beta.38-28892b95cd0b",
+      "name": "@rolldown/pluginutils",
+      "versionInfo": "1.0.0-beta.38",
+      "downloadLocation": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.38.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-android-arm-eabi-4.62.2-477fb3dc013a",
+      "name": "@rollup/rollup-android-arm-eabi",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-android-arm64-4.62.2-fc8d5ae51d0a",
+      "name": "@rollup/rollup-android-arm64",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-darwin-arm64-4.62.2-ac7660a5fb58",
+      "name": "@rollup/rollup-darwin-arm64",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-darwin-x64-4.62.2-9e601bee9154",
+      "name": "@rollup/rollup-darwin-x64",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-freebsd-arm64-4.62.2-0f0d56953c46",
+      "name": "@rollup/rollup-freebsd-arm64",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-freebsd-x64-4.62.2-827f76d40ced",
+      "name": "@rollup/rollup-freebsd-x64",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-arm-gnueabihf-4.62.2-a283337ad65a",
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-arm-musleabihf-4.62.2-eae5612face4",
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-arm64-gnu-4.62.2-0e1ed558a118",
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-arm64-musl-4.62.2-4a40b15546ac",
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-loong64-gnu-4.62.2-24281260ee9d",
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-loong64-musl-4.62.2-5c2564a02d43",
+      "name": "@rollup/rollup-linux-loong64-musl",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-ppc64-gnu-4.62.2-e9c9bf7d5372",
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-ppc64-musl-4.62.2-a05145f939af",
+      "name": "@rollup/rollup-linux-ppc64-musl",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-riscv64-gnu-4.62.2-0ce3652e2d99",
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-riscv64-musl-4.62.2-20b4a70fee18",
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-s390x-gnu-4.62.2-1c80f00df815",
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-x64-gnu-4.62.2-f2da0a860cbb",
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-linux-x64-musl-4.62.2-bb5232ecea5e",
+      "name": "@rollup/rollup-linux-x64-musl",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-openbsd-x64-4.62.2-53328381c24c",
+      "name": "@rollup/rollup-openbsd-x64",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-openharmony-arm64-4.62.2-8c0254ce115c",
+      "name": "@rollup/rollup-openharmony-arm64",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-win32-arm64-msvc-4.62.2-26ea2779389b",
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-win32-ia32-msvc-4.62.2-b21532fdcf07",
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-win32-x64-gnu-4.62.2-996f0f34f465",
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--rollup-rollup-win32-x64-msvc-4.62.2-4467c7537e1b",
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--types-babel-core-7.20.5-934b4a890f40",
+      "name": "@types/babel__core",
+      "versionInfo": "7.20.5",
+      "downloadLocation": "https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--types-babel-generator-7.27.0-4e5c3539f3bf",
+      "name": "@types/babel__generator",
+      "versionInfo": "7.27.0",
+      "downloadLocation": "https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--types-babel-template-7.4.4-29ef243791d4",
+      "name": "@types/babel__template",
+      "versionInfo": "7.4.4",
+      "downloadLocation": "https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--types-babel-traverse-7.28.0-5433fa1130a2",
+      "name": "@types/babel__traverse",
+      "versionInfo": "7.28.0",
+      "downloadLocation": "https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--types-estree-1.0.9-5b94d6928260",
+      "name": "@types/estree",
+      "versionInfo": "1.0.9",
+      "downloadLocation": "https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package--vitejs-plugin-react-5.0.4-62fcf17c74e6",
+      "name": "@vitejs/plugin-react",
+      "versionInfo": "5.0.4",
+      "downloadLocation": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-baseline-browser-mapping-2.10.42-489fbd212f5e",
+      "name": "baseline-browser-mapping",
+      "versionInfo": "2.10.42",
+      "downloadLocation": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.42.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-browserslist-4.28.5-e95c781ba080",
+      "name": "browserslist",
+      "versionInfo": "4.28.5",
+      "downloadLocation": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.5.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-caniuse-lite-1.0.30001803-21970073df40",
+      "name": "caniuse-lite",
+      "versionInfo": "1.0.30001803",
+      "downloadLocation": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001803.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "CC-BY-4.0"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-codex-output-items-1.0.0",
+      "name": "codex-output-items",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-convert-source-map-2.0.0-4670c536d698",
+      "name": "convert-source-map",
+      "versionInfo": "2.0.0",
+      "downloadLocation": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-debug-4.4.3-e7b40ffca5b4",
+      "name": "debug",
+      "versionInfo": "4.4.3",
+      "downloadLocation": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-electron-to-chromium-1.5.389-3ef5dd2d91e9",
+      "name": "electron-to-chromium",
+      "versionInfo": "1.5.389",
+      "downloadLocation": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.389.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-esbuild-0.25.12-c0bca85e4f09",
+      "name": "esbuild",
+      "versionInfo": "0.25.12",
+      "downloadLocation": "https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-escalade-3.2.0-d9e495ab61a7",
+      "name": "escalade",
+      "versionInfo": "3.2.0",
+      "downloadLocation": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-fdir-6.5.0-2b5fa8f52ca8",
+      "name": "fdir",
+      "versionInfo": "6.5.0",
+      "downloadLocation": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-fsevents-2.3.3-e0a54ee2f677",
+      "name": "fsevents",
+      "versionInfo": "2.3.3",
+      "downloadLocation": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-gensync-1.0.0-beta.2-dfb31c7897fc",
+      "name": "gensync",
+      "versionInfo": "1.0.0-beta.2",
+      "downloadLocation": "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-js-tokens-4.0.0-0fe195842c66",
+      "name": "js-tokens",
+      "versionInfo": "4.0.0",
+      "downloadLocation": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-jsesc-3.1.0-29401e847ec8",
+      "name": "jsesc",
+      "versionInfo": "3.1.0",
+      "downloadLocation": "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-json5-2.2.3-683cf56a6ba4",
+      "name": "json5",
+      "versionInfo": "2.2.3",
+      "downloadLocation": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-lru-cache-5.1.1-ef019587cdc6",
+      "name": "lru-cache",
+      "versionInfo": "5.1.1",
+      "downloadLocation": "https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ms-2.1.3-e411571ea827",
+      "name": "ms",
+      "versionInfo": "2.1.3",
+      "downloadLocation": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-nanoid-3.3.15-ef6c34dd1045",
+      "name": "nanoid",
+      "versionInfo": "3.3.15",
+      "downloadLocation": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.15.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-node-releases-2.0.50-f5138ba7f038",
+      "name": "node-releases",
+      "versionInfo": "2.0.50",
+      "downloadLocation": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.50.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-picocolors-1.1.1-704e4df8a5a7",
+      "name": "picocolors",
+      "versionInfo": "1.1.1",
+      "downloadLocation": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-picomatch-4.0.5-75ffdfefb00d",
+      "name": "picomatch",
+      "versionInfo": "4.0.5",
+      "downloadLocation": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-postcss-8.5.16-0830b7c0be8a",
+      "name": "postcss",
+      "versionInfo": "8.5.16",
+      "downloadLocation": "https://registry.npmjs.org/postcss/-/postcss-8.5.16.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-react-19.2.0-c32755efedd6",
+      "name": "react",
+      "versionInfo": "19.2.0",
+      "downloadLocation": "https://registry.npmjs.org/react/-/react-19.2.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-react-dom-19.2.0-d5a4b102c030",
+      "name": "react-dom",
+      "versionInfo": "19.2.0",
+      "downloadLocation": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-react-refresh-0.17.0-f8c15e4a7ee5",
+      "name": "react-refresh",
+      "versionInfo": "0.17.0",
+      "downloadLocation": "https://registry.npmjs.org/react-refresh/-/react-refresh-0.17.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-rollup-4.62.2-b24e83403df2",
+      "name": "rollup",
+      "versionInfo": "4.62.2",
+      "downloadLocation": "https://registry.npmjs.org/rollup/-/rollup-4.62.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-scheduler-0.27.0-7bf6cc1c4f3f",
+      "name": "scheduler",
+      "versionInfo": "0.27.0",
+      "downloadLocation": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-semver-6.3.1-e295d2ab5a73",
+      "name": "semver",
+      "versionInfo": "6.3.1",
+      "downloadLocation": "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-source-map-js-1.2.1-c447b62b9ea4",
+      "name": "source-map-js",
+      "versionInfo": "1.2.1",
+      "downloadLocation": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tinyglobby-0.2.17-e2eef8d8e776",
+      "name": "tinyglobby",
+      "versionInfo": "0.2.17",
+      "downloadLocation": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-update-browserslist-db-1.2.3-99c858d4f4b1",
+      "name": "update-browserslist-db",
+      "versionInfo": "1.2.3",
+      "downloadLocation": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-vite-6.4.2-bae531363001",
+      "name": "vite",
+      "versionInfo": "6.4.2",
+      "downloadLocation": "https://registry.npmjs.org/vite/-/vite-6.4.2.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-yallist-3.1.1-fb9d2dfac950",
+      "name": "yallist",
+      "versionInfo": "3.1.1",
+      "downloadLocation": "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "ISC"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-codex-output-items-1.0.0"
+    }
+  ]
+}

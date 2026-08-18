@@ -1,0 +1,257 @@
+{
+    "format":  "codex-output-items-release/v1",
+    "version":  "1.0.0",
+    "reproducible":  true,
+    "files":  [
+                  {
+                      "path":  "assets/icon.png",
+                      "size":  1361,
+                      "sha256":  "2ddbd838df748680a5848d992a902faf3794fe5b7daf5ddc4d93c4c4f96a6656"
+                  },
+                  {
+                      "path":  "assets/logo.png",
+                      "size":  2568,
+                      "sha256":  "33b422d3627b7cb08c71919485a582e06f0d0369b6e634909ecea991581a29fa"
+                  },
+                  {
+                      "path":  "assets/logo-dark.png",
+                      "size":  2568,
+                      "sha256":  "33b422d3627b7cb08c71919485a582e06f0d0369b6e634909ecea991581a29fa"
+                  },
+                  {
+                      "path":  "CHANGELOG.md",
+                      "size":  981,
+                      "sha256":  "bed452ff943491589430204dedfec4ab8f2104fa00f6544aad423c9c0290b4b5"
+                  },
+                  {
+                      "path":  "companion/ATTRIBUTION.md",
+                      "size":  408,
+                      "sha256":  "43292c8b07854d1a4c5c222f0505b6be24a460fe0fb621fd8743f3f08dd91142"
+                  },
+                  {
+                      "path":  "companion/codex-companion.mjs",
+                      "size":  50931,
+                      "sha256":  "3d5d6c0ba9bd20d05ed5225591896e25d7e6ee4e68167e9a0e832480342c7b07"
+                  },
+                  {
+                      "path":  "companion/focus-managed-codex.ps1",
+                      "size":  30238,
+                      "sha256":  "0fc776e31c94a509cd0f5c38a9bb1d2f57b0dd0ef058dd7837feff3002a10ad6"
+                  },
+                  {
+                      "path":  "companion/inject-output-items.user.js",
+                      "size":  24735,
+                      "sha256":  "fd2e9324033aee6d992bfd37ccbaa49f2f149046d81052f11b54d20c94aeb2d7"
+                  },
+                  {
+                      "path":  "companion/lifecycle-fixture.html",
+                      "size":  4608,
+                      "sha256":  "32ad72925cb4b6544723aa52181d26fa166fbc23eb307b18a8312a1f82af2dd5"
+                  },
+                  {
+                      "path":  "companion/README.md",
+                      "size":  7708,
+                      "sha256":  "2cf4fb8fbdb250eb417e589fc7426640e99311008b0bf56e9073b634f4ba60e0"
+                  },
+                  {
+                      "path":  "docs/architecture.md",
+                      "size":  14949,
+                      "sha256":  "cde35c20df5be9a41e05f0911222e92e895437b4760b881a626045616d3b47b6"
+                  },
+                  {
+                      "path":  "docs/releasing.md",
+                      "size":  1933,
+                      "sha256":  "ad102eff0daa928280c2e15cf739925a59b8bca86845194a62343233fa8d6fba"
+                  },
+                  {
+                      "path":  "docs/validation.md",
+                      "size":  18126,
+                      "sha256":  "4523902016242dbaf09fb2b525dc6ce742256a78e1c4cf9b92004c08eb0c6699"
+                  },
+                  {
+                      "path":  "extension.json",
+                      "size":  5272,
+                      "sha256":  "b1a0b5222be9226760a4ced785a4ff5ecac3a5a81c8443e84a28f7248616d506"
+                  },
+                  {
+                      "path":  "LICENSE",
+                      "size":  1088,
+                      "sha256":  "e0df13a601c9147474e4600270a5e64a4bc93e3c5c217a5e1654175c99294269"
+                  },
+                  {
+                      "path":  "package.json",
+                      "size":  524,
+                      "sha256":  "3b0c1041df313dea024ffaa7ec4d23abf536bfffbe7cb6a6688cb27ec40f90a9"
+                  },
+                  {
+                      "path":  "README.md",
+                      "size":  8082,
+                      "sha256":  "15131f25d452fb947e3b659a245475ef4373fedba8e501cbd045ba8d54a6a9ee"
+                  },
+                  {
+                      "path":  "SBOM.spdx.json",
+                      "size":  42539,
+                      "sha256":  "3349eae5822dd6cf65458d59fcfc47140fdbf2eedb785fd34c089e479bde9a5d"
+                  },
+                  {
+                      "path":  "scripts/codex-output-scanner.mjs",
+                      "size":  44722,
+                      "sha256":  "9267c50c01e256db42ac3b19c1bfc54036c69523b27c86291e7baf763ec7201b"
+                  },
+                  {
+                      "path":  "scripts/common.ps1",
+                      "size":  57215,
+                      "sha256":  "1b0714fdd803e7e05925be3f8ede78010a145a781cc4f14e52606a13c355d695"
+                  },
+                  {
+                      "path":  "scripts/disable.ps1",
+                      "size":  295,
+                      "sha256":  "b19a19ae3d6089e46f2164204df023fecd8203aa5310d50e071ac9ff4f4629a7"
+                  },
+                  {
+                      "path":  "scripts/enable.ps1",
+                      "size":  522,
+                      "sha256":  "dfa181b744e2037916d93c569cc61822646e6b3dd990319244ec01a7b9083a88"
+                  },
+                  {
+                      "path":  "scripts/github-publisher.mjs",
+                      "size":  64828,
+                      "sha256":  "ea45cd5777434f1825d08e27ea8d3ecde7d66813c80ed75f193c413690c1ac48"
+                  },
+                  {
+                      "path":  "scripts/github-publisher-self-test.mjs",
+                      "size":  33939,
+                      "sha256":  "c905077d10151adfd29fae897151835d9908c285af35d2e9b82abd37c9d2e914"
+                  },
+                  {
+                      "path":  "scripts/install.ps1",
+                      "size":  12679,
+                      "sha256":  "11180020155af9b220d870584b5e23756d03c44fd1dae524adfd6798cd77d277"
+                  },
+                  {
+                      "path":  "scripts/launcher-safety-self-test.ps1",
+                      "size":  230,
+                      "sha256":  "da615c0d783b3937f684e3fc6aa2502eee2eda27a34eb295f4ad327b5c24cd66"
+                  },
+                  {
+                      "path":  "scripts/open.ps1",
+                      "size":  50,
+                      "sha256":  "233d2be6784499b54833d66fe1a1f9399b6ce108a55d151258d7aa31d3183c80"
+                  },
+                  {
+                      "path":  "scripts/open-explorer-location.ps1",
+                      "size":  9367,
+                      "sha256":  "1b42ee3fae4e617a8118e87b42a2e3341a4c2d2c49b1b8474ddbde3eca42c31b"
+                  },
+                  {
+                      "path":  "scripts/recycle-path.ps1",
+                      "size":  4728,
+                      "sha256":  "260640e4cee15385fffe834f7c44f2f8eca7e8d064dd42ac8a1eed0f106d0892"
+                  },
+                  {
+                      "path":  "scripts/recycle-path-self-test.mjs",
+                      "size":  7997,
+                      "sha256":  "cd9c336b08d2e5fb949e8c2d2cf8447c0432a2c6eee15d8510ea52107a1d5102"
+                  },
+                  {
+                      "path":  "scripts/register-self.mjs",
+                      "size":  2589,
+                      "sha256":  "2fc330bb063b74850cb243dc6dccc8e5d857a183217e9331ccbe58d1cc71aa2f"
+                  },
+                  {
+                      "path":  "scripts/self-test.mjs",
+                      "size":  100543,
+                      "sha256":  "ef467214d543250ac85703af3a57f80accda7390ab6cbef7b9df48666b963df4"
+                  },
+                  {
+                      "path":  "scripts/start-companion.ps1",
+                      "size":  573,
+                      "sha256":  "7cb97bac67f81ce398ee02d9132c2b4899c751d4d4a84082a3845f998a938a08"
+                  },
+                  {
+                      "path":  "scripts/stop-companion.ps1",
+                      "size":  404,
+                      "sha256":  "3fae0772d48a2b03879aca75919486b21f85b75d5872a305e8024bc089a5b50e"
+                  },
+                  {
+                      "path":  "scripts/uninstall.ps1",
+                      "size":  2311,
+                      "sha256":  "6e424fb55419fc6f9441e27fb469df235b5ff0db035eb8bc07ca75bb091dc542"
+                  },
+                  {
+                      "path":  "scripts/validate-data.mjs",
+                      "size":  1681,
+                      "sha256":  "5a793495c21d856053977a796580aa5e606f91e9ca526af9e8a92b79eb26940b"
+                  },
+                  {
+                      "path":  "SECURITY.md",
+                      "size":  1277,
+                      "sha256":  "0437bc627f1979e446643f27a397d104a9717d240d75a458279ee980c7714ebf"
+                  },
+                  {
+                      "path":  "server.mjs",
+                      "size":  135440,
+                      "sha256":  "bf55ddc92285ff45352079f56a6a8b979714f3bdd81ba1e7d38011d034e7ad81"
+                  },
+                  {
+                      "path":  "start-output-items.cmd",
+                      "size":  271,
+                      "sha256":  "d2ba9a5693810e8af27bec30cefe2a00e272ca65c34327349021c976cfe6fe11"
+                  },
+                  {
+                      "path":  "THIRD_PARTY_NOTICES.md",
+                      "size":  1118,
+                      "sha256":  "e919844f89825b8f996c6efcecd900e5bf2959504c28595feb16f673c0a242f3"
+                  },
+                  {
+                      "path":  "ui/assets/index-D4g7Y9cq.js",
+                      "size":  431884,
+                      "sha256":  "9176ed4a1776694840e4e578e46a483ce8a47b6f8d700c1091f6f3a3b27ac9fd"
+                  },
+                  {
+                      "path":  "ui/assets/index-DXyx9AGK.css",
+                      "size":  103285,
+                      "sha256":  "176e9ac55fa0d3bad80f3603eeb1bbde200746ea987498a7fcb560ad81cfad60"
+                  },
+                  {
+                      "path":  "ui/index.html",
+                      "size":  1356,
+                      "sha256":  "6dfcbedad3bfa0f85a2103e2a00dcc6e55fb7ad324f3623eb5f16374ba3ec58b"
+                  },
+                  {
+                      "path":  "安装产出项扩展.bat",
+                      "size":  286,
+                      "sha256":  "29e3d4d85f1285094bee3c56cfa85f743ad8b1470b7cddb1b10ff0934cdba628"
+                  },
+                  {
+                      "path":  "打开产出项.bat",
+                      "size":  69,
+                      "sha256":  "bae6ef981ad6dad1a35c902ff2573bebb73d5ad4873f05a1ddd325fcebec919b"
+                  },
+                  {
+                      "path":  "启动 Codex 产出项.bat",
+                      "size":  69,
+                      "sha256":  "bae6ef981ad6dad1a35c902ff2573bebb73d5ad4873f05a1ddd325fcebec919b"
+                  },
+                  {
+                      "path":  "启用产出项扩展.bat",
+                      "size":  178,
+                      "sha256":  "bca924f69293af7c6155be61b0605e47ed4f966a5754e91480f177a26042efce"
+                  },
+                  {
+                      "path":  "停用产出项扩展.bat",
+                      "size":  179,
+                      "sha256":  "6cf529336a511a208c8b3ae8bde27166d9aea50ec73c0c4078b8e2a3b8234822"
+                  },
+                  {
+                      "path":  "停止 Codex 产出项.bat",
+                      "size":  280,
+                      "sha256":  "22832c7b9cfe60ec89b3d6cf0101dbb66b24f09870e0a2cd846397bb7b9fe450"
+                  },
+                  {
+                      "path":  "卸载产出项扩展.bat",
+                      "size":  181,
+                      "sha256":  "484e4aa518e1905294ef928d7a02aa72646e552feb5a26ad5a0427116307c4d4"
+                  }
+              ]
+}

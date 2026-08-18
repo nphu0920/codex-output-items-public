@@ -1,0 +1,83 @@
+{
+  "format": "codex-local-extension/v1",
+  "id": "local.codex-output-items",
+  "name": "产出项",
+  "version": "1.0.0",
+  "description": "主动汇总 Codex 本地历史与后续增量产出的本地优先扩展；独立于 Codex 安装目录，并通过隔离伴生窗口提供侧栏入口。",
+  "provenance": {
+    "project": "codex-output-items",
+    "task": "维护“产出项”公开发行版"
+  },
+  "private": false,
+  "distribution": "github-release-zip",
+  "host": {
+    "transport": "mcp-stdio + loopback-http",
+    "command": "node",
+    "args": ["server.mjs"],
+    "tool": "open_output_items",
+    "resource": "ui://output-items/dashboard.html",
+    "standaloneCommand": "node server.mjs --http",
+    "standaloneBinding": "127.0.0.1:dynamic"
+  },
+  "navigation": {
+    "title": "产出项",
+    "entrypoint": "global",
+    "preferredDisplayMode": "fullscreen",
+    "delivery": "runtime-companion-injection"
+  },
+  "companion": {
+    "entry": "companion/codex-companion.mjs",
+    "desktopExecutable": "official Codex ChatGPT.exe",
+    "profile": "%LOCALAPPDATA%/CodexOutputItems/companion/codex-profile",
+    "runState": "%LOCALAPPDATA%/CodexOutputItems/run/companion.json",
+    "log": "%LOCALAPPDATA%/CodexOutputItems/run/companion.log",
+    "control": "single-instance-local-pipe",
+    "debugTransport": "remote-debugging-pipe",
+    "modifiesCodexApplicationFiles": false
+  },
+  "isolation": {
+    "modifiesCodexApplicationFiles": false,
+    "writesOutsideExtensionFolder": true,
+    "writesOnlyToDataDirectory": false,
+    "dataDirectory": "%LOCALAPPDATA%/CodexOutputItems",
+    "installationDirectory": "%USERPROFILE%/CodexLocalExtensions/output-items",
+    "otherManagedWrites": [
+      "Codex MCP registration mcp_servers.output_items",
+      "optional user-requested desktop shortcut"
+    ],
+    "scannerReadOnlySources": [
+      "%USERPROFILE%/.codex/state_*.sqlite",
+      "%USERPROFILE%/.codex/sessions",
+      "%USERPROFILE%/.codex/archived_sessions",
+      "%USERPROFILE%/.codex/generated_images",
+      "%USERPROFILE%/.codex/visualizations"
+    ],
+    "scannerManagedData": [
+      "%LOCALAPPDATA%/CodexOutputItems/data/scanner.json",
+      "%LOCALAPPDATA%/CodexOutputItems/data/items.json",
+      "%LOCALAPPDATA%/CodexOutputItems/logs/events.ndjson",
+      "%LOCALAPPDATA%/CodexOutputItems/temp/github-jobs"
+    ]
+  },
+  "notes": [
+    "此文件是公开发行版的本地扩展描述，不是 .codex-plugin/plugin.json，也不用于官方插件市场。",
+    "server.mjs 继续提供 stdio MCP 与仅监听 127.0.0.1 的 HTTP 服务。",
+    "伴生程序使用官方 ChatGPT.exe、独立 profile 和私有 CDP pipe，在运行时添加侧栏入口；不修改 app.asar 或 Codex 安装目录。",
+    "产出项板块会主动扫描 Codex 本地历史及后续增量记录，不依赖 agent 在任务结束时主动登记。",
+    "扫描器只读访问 Codex 的任务索引、会话记录、生成图片与可视化目录；索引结果和扫描游标只写入扩展自己的数据目录。",
+    "扫描器把 subagent 产出归入根任务，并排除 guardian、Temp、缓存和依赖目录。",
+    "列表先按根任务会话归组，同一任务产生的多个文件或程序显示在同一上级任务组中；已删除项固定沉到该会话底部，全部产出均已删除的任务会话不再显示。",
+    "产出项摘要会在文件数量与版本之间显示可靠的汇总大小；文件清单记录精确字节大小，文件夹默认收起并按层级逐级展开直接子项。",
+    "已登记的安全图片与纯文本格式可在产出项内预览；图片校验格式与尺寸，HTML、SVG 和脚本只以惰性纯文本显示。",
+    "切离产出项或进入设置时会立即恢复 Codex 原生界面；伴生适配层同时清理浏览器标题栏残留，不会把产出项迁移到新的宿主页面。",
+    "概览中的检测、GitHub、打开位置和删除产出项采用同宽单列按钮；删除仅针对已登记路径，并在明确确认后移入 Windows 回收站。",
+    "Windows PowerShell 5.1 的多受保护根参数已做显式数组扁平化与逐项校验，避免批量删除在回收站操作前发生路径格式错误。",
+    "上传个人 GitHub 只使用用户自行安装和登录的官方 gh CLI，不读取或保存 token；所有源文件先复制到隔离暂存目录，预检通过并明确确认后才执行远端写入。",
+    "批量勾选默认隐藏，只有点击批量操作后才进入多选模式。",
+    "产出项颜色会跟随 Codex 的深色、浅色或系统外观实时切换；独立页面则跟随 Windows 外观。",
+    "任务会话重命名后会通过轻量任务目录同步刷新最新名称，不新增产出版本，也不改变产出更新时间和排序。",
+    "启动 Codex 产出项.bat 会启动或复用单实例伴生窗口，恢复并前置 Windows 桌面窗口，然后打开产出项页面。",
+    "停用或卸载会先要求伴生程序撤销注入；卸载默认清除独立 profile 与运行日志，但保留产出项历史和所有真实产出文件。",
+    "这是面向当前本机 Codex 私有存储结构的兼容实现；Codex 更新本地结构后，扫描器或界面适配层可能需要同步调整。"
+  ]
+}

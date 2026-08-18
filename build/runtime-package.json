@@ -1,0 +1,17 @@
+{
+  "name": "codex-output-items-local-extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Install-ready local-first output index for Codex Desktop on Windows.",
+  "scripts": {
+    "test": "node scripts/self-test.mjs",
+    "test:github": "node scripts/github-publisher-self-test.mjs",
+    "test:recycle": "node scripts/recycle-path-self-test.mjs",
+    "check:companion": "node --check companion/codex-companion.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
